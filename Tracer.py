@@ -8,7 +8,18 @@ def get_domain_name(url):
 """
 Method that runs tracert command
 """
-
+def trace(domain_name):
+    rt = "trace " + domain_name
+    os.system(rt)
+    
 """
 Main method
 """
+def main():
+    input = raw_input("Input the url you wish to use: ")
+    
+    temp = get_domain_name(input)
+    trace(temp)
+
+# Runs the program    
+main()
