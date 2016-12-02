@@ -2,23 +2,16 @@
 
 Common Protocols and Ports
 
-Protocol:             Port Number:
-FTP - File Transfer   20 or 21
-Protocol              
+File Transfer Protocol(FTP) - 20 or 21
+              
+Secure Shell(SSH) - 22
 
-SSH - Secure Shell    22
+Telnet - 23
 
-Telnet                23
+Simple Mail Transfer Protocol(SMTP) - 25
 
-SMTP - Simple Mail    25
-Transfer Protocol
+Domain Name System(DNS) - 53
 
-DNS - Domain Name     53
-System
+Hypertext Transfer Protocol(HTTP) - 80
 
-HTTP - Hypertext      80
-Transfer Protocol
-
-HTTPS - Hypertext     443
-Transfer Protocol
-over SSL/TLS
+Hypertext Transfer Protocol over SSL/TLS (HTTPS) - 443
