@@ -9,7 +9,7 @@ def get_domain_name(url):
 Method that runs tracert command
 """
 def trace(domain_name):
-    rt = "trace " + domain_name
+    rt = "tracert " + domain_name
     os.system(rt)
     
 """
